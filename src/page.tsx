@@ -1,5 +1,7 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import logo from "./utils/capmac.svg"
+import imagePathHandler from "./utils/imagePathHandler";
 
 //import { DefaultProvider, sha256, toHex, PubKey, bsv, TestWallet, Tx, toByteString } from "scrypt-ts";
 
@@ -39,7 +41,7 @@ export default function Home() {
 
           <a href="/" className="justify-content-center" style={{textDecoration: "none"}}>
               <h1 className="fw-bold text-light d-flex align-items-center">
-                <img src="/capmac.svg" width="200" className="me-3"/>
+                <img src={imagePathHandler(logo)} width="200" className="me-3"/>
               </h1>
             </a>
 
@@ -59,7 +61,7 @@ export default function Home() {
 
           <a href="/" className="justify-content-center" style={{textDecoration: "none"}}>
               <h1 className="fw-bold text-light d-flex align-items-center">
-                <img src="/capmac.svg" width="200" className="me-3"/>
+                <img src={imagePathHandler(logo)} width="200" className="me-3"/>
               </h1>
             </a>
 

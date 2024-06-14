@@ -6,13 +6,14 @@ import Home from './page';
 //import './App.css';
 import NotFound from './Pages/NotFound';
 import RootLayout from './Pages/RootLayout';
+import { useEffect } from 'react';
 //import Create from './create/page'
 //import { useEffect } from 'react';
 
 function App() {
 
   // Redirect adjusting
-  /*
+
   useEffect(() => {
     if(window.location.pathname === '/'){
       window.location.href = `${window.location.origin}/${process.env.REACT_APP_REPOSITORY}`
@@ -20,7 +21,6 @@ function App() {
     }
   },[])
 
-  */
 
   const routesDef = createRoutesFromElements(
     <Route element={<RootLayout/>}>
@@ -30,9 +30,9 @@ function App() {
     </Route>
   )
 
-  //const router = createBrowserRouter(routesDef, { basename: '/flhelp' });
+  const router = createBrowserRouter(routesDef, { basename: '/The-Forest-Friends' });
 
-  const router = createBrowserRouter(routesDef);
+  //const router = createBrowserRouter(routesDef);
   return (
 
       <div>
