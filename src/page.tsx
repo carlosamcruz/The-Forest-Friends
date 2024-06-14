@@ -39,7 +39,7 @@ export default function Home() {
             Harness Innovation: We harness the power of innovation, technology, and collaboration to develop cutting-edge solutions for forest conservation and community development, driving positive change on a global scale.
           </p>
 
-          <a href="/" className="justify-content-center" style={{textDecoration: "none"}}>
+          <a href="/The-Forest-Friends" className="justify-content-center" style={{textDecoration: "none"}}>
               <h1 className="fw-bold text-light d-flex align-items-center">
                 <img src={imagePathHandler(logo)} width="200" className="me-3"/>
               </h1>
@@ -59,7 +59,7 @@ export default function Home() {
           Comprehensive Database:The development of a comprehensive database detailing the distribution of commercially valuable species within registered areas is another innovative aspect of The Forest Friends' technology solutions. By leveraging advanced data collection techniques and machine learning algorithms, this database provides valuable insights for prioritizing investments in sustainable businesses and supporting informed decision-making in environmental conservation.
           </p>
 
-          <a href="/" className="justify-content-center" style={{textDecoration: "none"}}>
+          <a href="/The-Forest-Friends" className="justify-content-center" style={{textDecoration: "none"}}>
               <h1 className="fw-bold text-light d-flex align-items-center">
                 <img src={imagePathHandler(logo)} width="200" className="me-3"/>
               </h1>

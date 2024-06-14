@@ -8,7 +8,7 @@ export default function Header(){
         <div className="container">
           <div className="d-flex flex-wrap align-items-end justify-content-center">
 
-            <a href="/" className="justify-content-start" style={{textDecoration: "none"}}>
+            <a href="/The-Forest-Friends" className="justify-content-start" style={{textDecoration: "none"}}>
               <h1 className="fw-bold text-light d-flex align-items-end">
                 <img src={imagePathHandler(logo)} width="120" className="me-3"/>
                 {"The Forest Friends"}
