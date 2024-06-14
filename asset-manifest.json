@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/The-Forest-Friends/static/css/main.d5289b2f.css",
-    "main.js": "/The-Forest-Friends/static/js/main.f09a1f08.js",
+    "main.js": "/The-Forest-Friends/static/js/main.08efd3a0.js",
     "static/media/capmac.svg": "/The-Forest-Friends/static/media/capmac.3296e1ec5d4acb93df39726952ce1b12.svg",
     "index.html": "/The-Forest-Friends/index.html",
     "main.d5289b2f.css.map": "/The-Forest-Friends/static/css/main.d5289b2f.css.map",
-    "main.f09a1f08.js.map": "/The-Forest-Friends/static/js/main.f09a1f08.js.map"
+    "main.08efd3a0.js.map": "/The-Forest-Friends/static/js/main.08efd3a0.js.map"
   },
   "entrypoints": [
     "static/css/main.d5289b2f.css",
-    "static/js/main.f09a1f08.js"
+    "static/js/main.08efd3a0.js"
   ]
 }
