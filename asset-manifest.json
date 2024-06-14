@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/The-Forest-Friends/static/css/main.d5289b2f.css",
+    "main.js": "/The-Forest-Friends/static/js/main.a953e386.js",
+    "index.html": "/The-Forest-Friends/index.html",
+    "main.d5289b2f.css.map": "/The-Forest-Friends/static/css/main.d5289b2f.css.map",
+    "main.a953e386.js.map": "/The-Forest-Friends/static/js/main.a953e386.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5289b2f.css",
+    "static/js/main.a953e386.js"
+  ]
+}
