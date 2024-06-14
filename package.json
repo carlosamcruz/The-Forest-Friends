@@ -19,11 +19,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-
     "build-ghpages": "react-scripts build && move build docs",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,5 +45,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://carlosamcruz.github.io/The-Forest-Friends/"
+  "homepage": "https://carlosamcruz.github.io/The-Forest-Friends/",
+  "devDependencies": {
+    "react-app-rewired": "^2.2.1"
+  }
 }
