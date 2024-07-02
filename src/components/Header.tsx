@@ -17,7 +17,7 @@ export default function Header(){
             <div className="text-end col-7">
               <button type="button" className="btn btn-outline-light me-2">
                 <img src={imagePathHandler(logo)} width="24" className="me-3"/>
-                Login
+                Login 
               </button>
               {/*<a href="/create" className="btn btn-warning">Pedir Ajuda </a> */}
 
