@@ -30,7 +30,7 @@ function App() {
     </Route>
   )
 
-  const router = createBrowserRouter(routesDef);
+  const router = createBrowserRouter(routesDef, { basename: '/The-Forest-Friends' });
 
   //const router = createBrowserRouter(routesDef);
   return (
