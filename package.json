@@ -45,7 +45,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://carlosamcruz.github.io/The-Forest-Friends/",
+  "homepage": ".",
   "devDependencies": {
     "react-app-rewired": "^2.2.1"
   }
